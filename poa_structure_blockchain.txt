@@ -34,5 +34,3 @@ Path of the secret key file: node2\keystore\UTC--2021-08-20T15-00-24.305961000Z-
 
 ./geth --datadir node1 --unlock "a0f5f5df49C0bb9596d4Bb5610A733FB5c7A410B" --mine --rpc --allow-insecure-unlock
 ./geth --datadir node2 --unlock "a0f5f5df49C0bb9596d4Bb5610A733FB5c7A410B" --mine --port 30304 --bootnodes "enode://6bab79d8f6581e21f7f1a47d8443baf11430cf106603557256fb845e37567aa332726b10c542b69aa7bce3aaf02e30d065876d2f50da6025ef325c819bdf1c8b@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
-
-metamask account1 private = 5e96b28eb7212cdf3a0f06cc71715b31ea4e685f6997e4afeeb8db4ca75151a6
